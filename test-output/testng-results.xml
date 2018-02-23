@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Certification Project by groups" duration-ms="34573" started-at="2018-02-04T17:16:18Z" finished-at="2018-02-04T17:16:53Z">
+    <groups>
+      <group name="Validate">
+        <method signature="Test_Cases.login()[pri:1, instance:mercury_Tours.Test_Cases@3b088d51]" name="login" class="mercury_Tours.Test_Cases"/>
+        <method signature="Test_Cases.validateCredentials()[pri:10, instance:mercury_Tours.Test_Cases@3b088d51]" name="validateCredentials" class="mercury_Tours.Test_Cases"/>
+      </group> <!-- Validate -->
+    </groups>
+    <test name="GRP-Validate" duration-ms="34573" started-at="2018-02-04T17:16:18Z" finished-at="2018-02-04T17:16:53Z">
+      <class name="mercury_Tours.Test_Cases">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:mercury_Tours.Test_Cases@3b088d51]" name="beforeClass" is-config="true" duration-ms="18044" started-at="2018-02-04T22:46:18Z" finished-at="2018-02-04T22:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login()[pri:1, instance:mercury_Tours.Test_Cases@3b088d51]" name="login" duration-ms="15508" started-at="2018-02-04T22:46:36Z" finished-at="2018-02-04T22:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateCredentials()[pri:10, instance:mercury_Tours.Test_Cases@3b088d51]" name="validateCredentials" duration-ms="252" started-at="2018-02-04T22:46:52Z" finished-at="2018-02-04T22:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCredentials -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:mercury_Tours.Test_Cases@3b088d51]" name="afterClass" is-config="true" duration-ms="734" started-at="2018-02-04T22:46:52Z" finished-at="2018-02-04T22:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- mercury_Tours.Test_Cases -->
+    </test> <!-- GRP-Validate -->
+  </suite> <!-- Certification Project by groups -->
+</testng-results>

@@ -1,0 +1,15 @@
+“Mercury Tours” is a tour and travel service which provides with customized tour plans along with facility to book flights and hotels at very discounted rates. 
+They have Several vacation packages for families as well as friend groups with complimentary surprises. 
+They have a Webpage where the tourists can get all the information regarding sign in and booking details.
+ By using the above information, create an end to end project using the concept of Page Object Modelling to execute a suite of 2 Test Cases.
+
+ Here is the Link provided for your reference: - http://newtours.demoaut.com
+
+Test Case 1 - User should be able to book a return ticket successfully by logging into application.
+
+Test Case 2 - Validate the credentials of the user on the application.
+
+
+In the end, an email having test report as an attachment in PDF format should be triggered automatically to all the stake-holders and it should display the final result as Pass/Fail of the individual Test Case of the suite.
+
+

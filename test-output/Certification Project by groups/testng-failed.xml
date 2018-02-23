@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Certification Project by groups]">
+  <test name="GRP-Validate(failed)">
+    <groups>
+      <run>
+        <include name="Validate"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="mercury_Tours.Test_Cases">
+        <methods>
+          <include name="afterClass"/>
+          <include name="validateCredentials"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- mercury_Tours.Test_Cases -->
+    </classes>
+  </test> <!-- GRP-Validate(failed) -->
+</suite> <!-- Failed suite [Certification Project by groups] -->
